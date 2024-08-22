@@ -10,3 +10,10 @@ The solutions from this project can be used as a refrence for learning purposes 
 Furthermore, whoever uses this as a blueprint for their own object should ask for permission before publishing their own work. They must acknowledge the original creator(The repository owner) in their work.
 
 Failure to adhire to the above mentioned may lead to prosecution!
+
+Credits:
+@author: Banele Luthuli
+
+Images source:
+https://www.pexels.com/
+https://pixabay.com/

@@ -7,50 +7,65 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <h6><a href="#">Micros' Solutions</a></h6>
-        <ul>
-            <li><a href="#info">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Get Started</a></li>
-        </ul>
-    </header>
-    <div class="top-summary">
-        <div class="left-summary">
-            <h5>Let your online presence stand out from the rest</h5>
-            <p>We aim to give you a presence that will have your clients making a standing ovation for your own Services.
-                Tell us more and we will do even better. From online presence, to getting your business on the map and keep it
-                afloat in this world of more without confusion.
-            </p>
-            <button>Sign up</button>
+    <div class="top">
+        <div class="header">
+            <h6 id="h6-header"><a href="#">Micros' Solutions</a></h6>
+            <ul>
+                <li><a href="#info">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+            </ul>
         </div>
-        <div class="right-summary">
-            <img href="#" aria-placeholder="This is a placeholder for an image">
+        <div class="top-summary">
+            <div class="left-summary">
+                <h6 id="h6-sum">Let your online presence stand out from the rest!</h6>
+                <p id="summary-p">We aim to give you a presence that will have your clients making a standing ovation for your Services.
+                    Tell us more and we will do even better. From online presence, to getting your business on the map and keep it
+                    afloat in this world of more without confusion.
+                </p>
+                <button class="sum-button">Sign up</button>
+            </div>
+            <div class="right-summary">
+                <img class="summary-img" src="main-picture.jpeg" alt="This is a placeholder for an image">
+            </div>
         </div>
     </div>
+
     <div class="information" id="info">
-        <h4>Choose your style of business to see what we can offer you</h4>
+        <h4 id="info-header">See How We Can Help You And Your Business</h4>
         <div class="content-container">
-            <div class="content">I am content #1</div>
-            <div class="content">I am content #2</div>
-            <div class="content">I am content #3</div>
-            <div class="content">I am content #4</div>
+            <div class="content">
+                <img class="content-imgs" src="online-presence.jpg">
+                <p class="content-p">Online presence</p>
+            </div>
+            <div class="content">
+                <img class="content-imgs" src="marketing.jpg">
+                <p class="content-p">Marketing</p>
+            </div>
+            <div class="content">
+                <img class="content-imgs" src="recruiting.jpg">
+                <p class="content-p">Recruiting</p>
+            </div>
+            <div class="content">
+                <img class="content-imgs" src="maintenance.jpg">
+                <p class="content-p">Maintenance</p>
+            </div>
         </div>
     </div>
     <div class="testimonials">
-        <p>I no longer have to worry about my online presence, or worry about how my customers can easily reach out when they require assistance.
+        <p class="quote">I no longer have to worry about my online presence, or worry about how my customers can easily reach out when they require assistance.
             Micros' Solution takes care of my customers and their needs and all I need to worry about is delivering my promises without a hassle.
             I am at the beginning of my business and I am sure I will continue excelling with Micros' Solutions on my side!
         </p>
         <p id="names">-Banele, Atenkins Legal President</p>
     </div>
-    <div class="sign-up">
-        <div class="sign">
-            <div class="say-sign">
+    <div class="sign-up" id="get-started">
+        <div class="sign-up-container">
+            <div class="sign-text">
                 <h3>Ready to take your adventure to the next level?</h3>
                 <p>Sign up for more possibilities and our outstanding professionals will be happy to assit you!</p>
             </div>
-            <aside><button>Sign up</button></aside>
+            <aside><button class="sign-up-button">Sign up</button></aside>
         </div>
     </div>
     <footer class="footer">Copyright &copy; Micros' Solutions 2024</footer>
